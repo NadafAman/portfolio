@@ -5,7 +5,7 @@ const socialLinks = [
   {
     id: 1,
     icon: <FiGlobe />,
-    url: "http://localhost:3000",
+    url: "https://creative-crumble-d1e0a8.netlify.app/",
   },
   {
     id: 2,
