@@ -8,11 +8,285 @@ import {
 } from "react-icons/fi";
 
 export const projectsData = [
+
+  {
+    id: 7,
+    title: "AI-Powered Crypto Trading Platform",
+    url: "",
+    category: "Java Application /Web Application",
+    img: "/images/crypto.jpg",
+    ProjectHeader: {
+      title: "AI Crypto Trading Platform",
+      publishDate: "Apr 30, 2025",
+      tags: "AI, Cryptocurrency, Trading Platform",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "AI Crypto Trading Platform",
+        img: "/images/crypto.jpg",
+      },
+
+    ],
+    ProjectInfo: {
+      ClientHeading: "Personal Project",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "--",
+        },
+        {
+          id: uuidv4(),
+          title: "Role",
+          details: "Full-Stack Developer",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "--",
+        },
+        {
+          id: uuidv4(),
+          title: "Contact",
+          details: "--",
+        },
+      ],
+      ObjectivesHeading: "Project Objectives",
+      ObjectivesDetails:
+        "Develop a comprehensive AI-powered cryptocurrency trading platform with features like an AI Chat Bot, buy/sell functionality, portfolio management, advanced wallet features, transaction history, robust security, and a cutting-edge technology stack.",
+      Technologies: [
+        {
+          title: "Backend",
+          techs: ["Spring Boot", "MySQL DB", "Spring Security", "Java Mail Sender"],
+        },
+        {
+          title: "Frontend",
+          techs: ["React", "Tailwind CSS", "Redux", "Axios", "React-Router-Dom", "Shadcn UI"],
+        },
+        {
+          title: "Payment Gateways",
+          techs: ["Razorpay", "Stripe"],
+        },
+        {
+          title: "APIs",
+          techs: ["Gemini API", "CoinGecko API"],
+        },
+      ],
+      ProjectDetailsHeading: "Project Overview",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Engineered a fully functional cryptocurrency trading platform integrating AI capabilities for user support and real-time market data analysis.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Implemented a user-friendly interface for buying and selling a wide range of cryptocurrencies, coupled with robust portfolio management tools.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Developed advanced wallet functionalities including secure wallet-to-wallet transfers, direct withdrawals to bank accounts, and easy balance top-ups.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Ensured high security with features like secure login/registration and two-factor authentication.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Utilized a modern technology stack including Spring Boot for the backend, React for the frontend, and integrated with Gemini and CoinGecko APIs for real-time data.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+    },
+  },
+  {
+    id: 8,
+    title: "Journal Management Application Backend",
+    url: "",
+    category: "Java Application",
+    img: "/images/journal.jpg",
+    ProjectHeader: {
+      title: "Journal Management Backend",
+      publishDate: "Apr 30, 2025",
+      tags: "Spring Boot, Backend Development",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "Journal Management Application",
+        img: "/images/journal.jpg",
+      },
+
+    ],
+    ProjectInfo: {
+      ClientHeading: "Personal Project",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "--",
+        },
+        {
+          id: uuidv4(),
+          title: "Role",
+          details: "Backend Developer",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "--",
+        },
+        {
+          id: uuidv4(),
+          title: "Contact",
+          details: "--",
+        },
+      ],
+      ObjectivesHeading: "Project Objectives",
+      ObjectivesDetails:
+        "Develop a robust and scalable backend for a journal management application, focusing on user authentication, security, and efficient data handling.",
+      Technologies: [
+        {
+          title: "Backend",
+          techs: ["Spring Boot", "MongoDB", "Spring Security", "Java Mail Sender", "Kafka"],
+        },
+      ],
+      ProjectDetailsHeading: "Project Overview",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Developed the backend infrastructure for a journal management application using Spring Boot, ensuring a secure and efficient system for managing user data and journal entries.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Implemented secure user authentication with Google account integration and Spring Security for robust access control.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Integrated email automation for user notifications, enhancing the overall user experience.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Utilized Kafka for efficient message queuing and MongoDB as the primary database for scalable data storage and retrieval.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Focused on building a secure, efficient, and scalable backend system to handle user data and journal entries effectively.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+    },
+  },
+  {
+    id: 9,
+    title: "Full-Stack Blogging Application",
+    url: "https://stupendous-kringle-826a00.netlify.app/",
+    category: " Java Application ",
+    img: "/images/blog.jpeg",
+    ProjectHeader: {
+      title: "Responsive Blogging Platform",
+      publishDate: "Apr 30, 2025",
+      tags: "React, Full-Stack Development",
+    },
+    ProjectImages: [
+      {
+        id: uuidv4(),
+        title: "Blogging Application - Homepage",
+        img: "/images/blog.jpeg",
+      },
+
+    ],
+    ProjectInfo: {
+      ClientHeading: "Personal Project",
+      CompanyInfo: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "--",
+        },
+        {
+          id: uuidv4(),
+          title: "Role",
+          details: "Full-Stack Developer",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://stupendous-kringle-826a00.netlify.app/",
+        },
+        {
+          id: uuidv4(),
+          title: "Contact",
+          details: "--",
+        },
+      ],
+      ObjectivesHeading: "Project Objectives",
+      ObjectivesDetails:
+        "Design and develop a user-friendly and responsive full-stack blogging application with secure authentication and real-time updates.",
+      Technologies: [
+        {
+          title: "Frontend",
+          techs: ["React", "Responsive Design"],
+        },
+        {
+          title: "Backend",
+          techs: ["Node.js", "Express.js", "MongoDB"],
+        },
+        {
+          title: "Authentication",
+          techs: ["JWT Authentication"],
+        },
+        {
+          title: "Realtime",
+          techs: ["WebSockets"],
+        },
+      ],
+      ProjectDetailsHeading: "Project Overview",
+      ProjectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Designed and developed a full-stack blogging application with a strong emphasis on front-end functionality and user experience.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Created a fully responsive and user-friendly interface in React, allowing users to seamlessly create, edit, and delete blog posts.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Integrated secure user authentication to protect user data and ensure only authorized users can manage their content.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Implemented real-time updates to enhance functionality and provide a dynamic user experience.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Demonstrates expertise in front-end development, full-stack application architecture, and delivering responsive, interactive web solutions.",
+        },
+      ],
+      SocialSharingHeading: "Share This",
+    },
+  },
   {
     id: 1,
     title: "Evo: AI Voice Assistant",
     url: "https://github.com/NadafAman/evo-a-voice-assistant.git",
-    category: "AI / Python Application",
+    category: " Python Application",
     img: "/images/web-project-2.jpg",
     ProjectHeader: {
       title: "Evo AI Voice Assistant",
@@ -197,7 +471,7 @@ export const projectsData = [
     id: 3,
     title: "Recipe Sharing Social Platform",
     url: "https://stupendous-kringle-826a00.netlify.app/",
-    category: "Web Application / Social Networking",
+    category: "Web Application ",
     img: "/images/food1.png",
     ProjectHeader: {
       title: "Recipe Sharing Network",
@@ -287,7 +561,7 @@ export const projectsData = [
     id: 4,
     title: "Event Management Web Application",
     url: "",
-    category: "Web Application / Event Management",
+    category: "Web Application",
     img: "/images/eventApp.png",
     ProjectHeader: {
       title: "Event Management Platform",
@@ -377,7 +651,7 @@ export const projectsData = [
     id: 5,
     title: "Police Record Management System",
     url: "",
-    category: "Java Application / Database Management",
+    category: "Java Application ",
     img: "/images/police2.jpg",
     ProjectHeader: {
       title: "Police Record Management",
@@ -473,7 +747,7 @@ export const projectsData = [
     id: 6,
     title: "Framer Motion Animation Showcase",
     url: "https://challanges-framer-motion.vercel.app/",
-    category: "Web Application / Animation Design",
+    category: "Web Application",
     img: "/images/web-project-1.jpg",
     ProjectHeader: {
       title: "Advanced Web Animations",
